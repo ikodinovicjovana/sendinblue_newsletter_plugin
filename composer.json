@@ -1,0 +1,20 @@
+{
+    "name": "jovana/newsletter-plugin",
+    "description": "plugin for testing",
+    "type": "wordpress-plugin",
+    "require": {
+        "pear/http_request2": "^2.4"
+    },
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Jovana Ikodinovic",
+            "email": "jovanai@elatestcasinobonuses.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jovana\\SendInBlue\\" : "classes/"
+        }
+    }
+}
